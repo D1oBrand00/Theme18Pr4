@@ -1,0 +1,7 @@
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\bin\Debug\Theme18Pr4.exe.config
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\bin\Debug\Theme18Pr4.exe
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\bin\Debug\Theme18Pr4.pdb
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\obj\Debug\Theme18Pr4.csproj.AssemblyReference.cache
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\obj\Debug\Theme18Pr4.csproj.CoreCompileInputs.cache
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\obj\Debug\Theme18Pr4.exe
+C:\Users\Kab-35-6\Desktop\Theme18Pr4\obj\Debug\Theme18Pr4.pdb
