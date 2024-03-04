@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +8,11 @@ namespace Theme18Pr4
 {
     abstract class Person
     {
-        public string Name { get ; set ; }
+        public string Name { get; set; }
         public string Surname { get; set; }
         public DateTime Dt { get; set; }
         public string Faculty { get; set; }
-        public Person() {}
+        public Person() { }
         public Person(string name, string surname, DateTime dt, string faculty)
         {
             this.Name = name;
@@ -20,12 +20,16 @@ namespace Theme18Pr4
             this.Dt = dt;
             this.Faculty = faculty;
         }
-        public abstract int Age();
-
-        public virtual void Output()
+        public int Age()
         {
-            Console.WriteLine($"Имя - {Name}\nФамилия - {Surname}\nДата рождения{Dt}\nФакультет - {Faculty}");
+            int age = DateTime.Now.Year - Dt.Year;
+            return age = (Dt.Month < DateTime.Now.Month) ? age-- : age;
         }
+
+        public abstract void Output();
+        
+
+        
 
     }
 }
