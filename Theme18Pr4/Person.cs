@@ -12,6 +12,7 @@ namespace Theme18Pr4
         public string Surname { get; set; }
         public DateTime Dt { get; set; }
         public string Faculty { get; set; }
+        public Person() {}
         public Person(string name, string surname, DateTime dt, string faculty)
         {
             this.Name = name;
