@@ -13,7 +13,7 @@ namespace Theme18Pr4
         { this.Course = course; }
         public override void Output()
         {
-            Console.WriteLine($"Студент:\nИмя - {Name}\nФамилия - {Surname}\nДата рождения{Dt}\nФакультет - {Faculty}\nВозраст - {Age()}\nКурс - {Course}\n");
+            Console.WriteLine($"Студент: {Name} {Surname}\nДата рождения: {Dt}\nФакультет: {Faculty}\nКурс - {Course}\nВозраст: {Age()}\n");
         }
         public static Student Input()
         {
