@@ -17,7 +17,7 @@ namespace Theme18Pr4
         }
         public override void Output()
         {
-            Console.WriteLine($"Преподаватель:\nИмя - {Name}\nФамилия - {Surname}\nДата рождения{Dt}\nФакультет - {Faculty}\nВозраст - {Age()}\nДолжность - {Post}\nСтаж - {Experience}");
+            Console.WriteLine($"Преподаватель: {Name} {Surname}\nДата рождения: {Dt}\nФакультет: {Faculty}\nДолжность: {Post}\nСтаж: {Experience}\nВозраст: {Age()}");
         }
         public static Teacher Input()
         {
