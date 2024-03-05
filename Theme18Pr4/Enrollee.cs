@@ -11,7 +11,7 @@ namespace Theme18Pr4
         public Enrollee(string name, string surname, DateTime dt, string faculty) : base(name, surname, dt, faculty) { }
         public override void Output()
         {
-            Console.WriteLine($"Абитуриент:\nИмя - {Name}\nФамилия - {Surname}\nДата рождения{Dt}\nФакультет - {Faculty}\nВозраст - {Age()}");
+            Console.WriteLine($"Абитуриент: {Name} {Surname}\nДата рождения: {Dt}\nФакультет: {Faculty}\nВозраст: {Age()}");
         }
         public static Enrollee Input()
         {
