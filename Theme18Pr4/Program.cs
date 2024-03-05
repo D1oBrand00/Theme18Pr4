@@ -59,11 +59,11 @@ namespace Theme18Pr4
                         break;
                     case "search":
                         Console.WriteLine();
-                        Console.WriteLine("Введите начало диапозона возраста");
+                        Console.WriteLine("Введите нижнюю границу диапозона возраста");
                         int begin = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Введите конец диапозона возраста");
+                        Console.WriteLine("Введите верхнюю границу диапозона возраста");
                         int end = int.Parse(Console.ReadLine());
-                        Console.Write($"Люди в возросте с диапозоно от {begin} до {end}\n");
+                        Console.Write($"Персоны, чей возраст попадает в заданный диапозон:\n");
                         foreach (var elem in pers)
                         {
                             if (elem.Age() >= begin && elem.Age() <= end)
